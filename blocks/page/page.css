@@ -2,7 +2,7 @@
     position: relative;
     background-color: #000;
     color: white;
-    font-family: Inter, Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

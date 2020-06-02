@@ -5,10 +5,10 @@
 @import url('./_submit/button_submit.css');
 
 .button {
-    display: flex;
+  display: flex;
 }
 
 .button:hover {
-    cursor: pointer;
-    opacity: 0.8;
+  cursor: pointer;
+  opacity: .8;
 }

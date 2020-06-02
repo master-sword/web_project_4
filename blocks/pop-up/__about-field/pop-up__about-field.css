@@ -1,7 +1,7 @@
 .pop-up__about-field {
     margin: 30px 0 0 36px;
     border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
     width: 358px;
     padding-bottom: 13px; 
     background-color: transparent;
