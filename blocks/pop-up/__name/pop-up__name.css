@@ -1,0 +1,15 @@
+.pop-up__name {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  max-width: 358px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media screen and (max-width: 425px) {
+    .pop-up__name {
+      font-size: 10px;
+      line-height: 1rem;
+    }
+}

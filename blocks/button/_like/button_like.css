@@ -1,0 +1,12 @@
+.button_like {
+    margin-top: 8px;
+    margin-right: 29px;
+    width: 21px;
+    height: 18px;
+    border: none;
+    padding: none;
+    background-image: url(../../../images/heart.svg);
+    background-repeat: no-repeat;
+    background-color: unset;
+    background-size: contain;
+}

@@ -1,0 +1,11 @@
+.photo-grid__title {
+  margin: 0 auto 0 21px;
+  width: 246px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #000;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+}

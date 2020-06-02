@@ -1,0 +1,30 @@
+.pop-up__about-field {
+    margin: 30px 0 0 36px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 358px;
+    padding-bottom: 13px; 
+    background-color: transparent;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__about-field {
+        margin-left: 24px;
+        max-width: 350px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .pop-up__about-field {
+        margin: 14px 0 0 24px;
+        width: 190px;
+        padding-bottom: 10px;
+    }
+  }

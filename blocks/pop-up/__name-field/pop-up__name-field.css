@@ -1,0 +1,25 @@
+.pop-up__name-field {
+    margin: 54px 0 0 36px;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    width: 358px;
+    padding-bottom: 13px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .pop-up__name-field {
+        margin: 54px 0 0 24px;
+        max-width: 350px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .pop-up__name-field {
+        margin: 44px 0 0 24px;
+        width: 190px;
+        padding-bottom: 10px;
+    }
+}

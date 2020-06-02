@@ -1,0 +1,16 @@
+@import url('./__form/pop-up__form.css');
+@import url('./__title/pop-up__title.css');
+@import url('./__name/pop-up__name.css');
+@import url('./__name-field/pop-up__name-field.css');
+@import url('./__about/pop-up__about.css');
+@import url('./__about-field/pop-up__about-field.css');
+@import url('./__handler/pop-up__handler.css');
+@import url('./_closed/pop-up_closed.css');
+
+.pop-up {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: visibility 0.3s, opacity 0.3s linear;
+}  

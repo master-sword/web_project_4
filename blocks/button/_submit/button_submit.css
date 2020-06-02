@@ -1,0 +1,33 @@
+.button_submit {
+    margin-left: 34px;
+    width: 358px;
+    height: 50px;
+    border-radius: 2px;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+@media screen and (max-width: 768px) {
+    .button_submit {
+        margin-left: 20px;
+        top: 155px;
+        max-width: 350px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button_submit {
+        margin-left: 20px;
+        height: 40px;
+        top: 155px;
+        max-width: 190px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

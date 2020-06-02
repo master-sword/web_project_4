@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Paulo H Lemes' P4">
+        <meta name="keywords" content="HTML, CSS, and JavaScript">
+        <meta name="author" content="Paulo H Lemes">
+        <link rel="stylesheet" href="pages/index.css"> 
+        <title>Around the U.S.</title> 
+    </head>
+    <body class="page">
+        <header class="header">
+            <img src="./images/logo.svg" alt="logo" class="logo">
+        </header>
+        <main class="content">
+            <section class="profile">
+                <div class="profile__container">
+                    <img src="./images/jacques-cousteau.jpg" alt="Explorer Jacques Cousteau" class="profile__pic">
+                    <div class="profile__info">
+                        <h1 class="profile__name">Jacques Cousteau</h1>
+                        <button class="button button_edit"></button>
+                        <p class="profile__position">Explorer</p>
+                    </div>
+                    <button class="button button_add"></button>
+                </div>
+            </section>
+            <section class="photo-grid">
+                <ul class="photo-grid__container">
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Yosemite Valley" style="background-image: url('./images/yosemite-valley.jpg');"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Yosemite Valley</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Lake Louise" style="background-image: url(./images/lake-louise.jpg);"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Lake Louise</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Bald Mountains" style="background-image: url(./images/bald-mountains.jpg);"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Bald Mountains</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Latemar" style="background-image: url(./images/latemar.jpg);"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Latemar</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Vanois National Park" style="background-image: url(./images/vanos-national-park.jpg);"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Vanois National Park</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                    <li class="photo-grid__item">
+                        <div class="photo-grid__pic" title="Lago di Braies" style="background-image: url(./images/lago-di-braies.jpg);"></div>
+                        <div class="photo-grid__content">
+                            <h3 class="photo-grid__title">Lago di Braies</h3>
+                            <button class="button button_like"></button>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__copyright">&#169; 2020 Paulo H Lemes</div>
+        </footer>
+        <section class="pop-up pop-up_closed">
+            <form action="#" class="pop-up__form">
+                <button type="reset" class="button_close"></button>
+                <h2 class="pop-up__title">Edit Profile</h2>
+                <fieldset class="pop-up__name">
+                    <input class="pop-up__name-field" type="text" name="name" value="Jacques Cousteau" placeholder="Name" maxlength="40" required>
+                </fieldset>
+                <fieldset class="pop-up__about">
+                    <input class="pop-up__about-field" type="text" name="about" value="Explorer" placeholder="About me" maxlength="40" required>
+                </fieldset>
+                <fieldset class="pop-up__handler">
+                    <input type="submit" class="button button_submit" value="Save">
+                </fieldset>
+            </form>
+        </section>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
